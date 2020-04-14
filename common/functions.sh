@@ -16,7 +16,7 @@ cleanup() {
   rm -rf $MODPATH/common 2>/dev/null
   ui_print " "
   ui_print "    **************************************"
-  ui_print "    *   MMT Extended by Zackptg5 @ XDA   *"
+  ui_print "    *         MK5566 for OnePlus 7       *"
   ui_print "    **************************************"
   ui_print " "
 }

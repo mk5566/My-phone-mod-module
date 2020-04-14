@@ -1,7 +1,6 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v1.5
-versionCode=6
-author=Zackptg5
-description=
-support=https://forum.xda-developers.com/apps/magisk/MMT-Extended
+id=op7mkmod
+name=OnePlus 7 MK mod
+version=v1
+versionCode=1
+author=mk5566
+description=Enable sim nfc on oneplus 7, GPS time to Cloudflare, add volume steps
