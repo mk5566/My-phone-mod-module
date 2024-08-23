@@ -1,6 +1,6 @@
-id=op7mkmod
-name=OnePlus 7 MK mod
-version=v1
-versionCode=1
+id=mi13u_twgpsnfc
+name=Xiaomi 13U TW GPS & NFC Fusion off
+version=stable
+versionCode=9
 author=mk5566
-description=Enable sim nfc on oneplus 7, GPS time to Cloudflare, add volume steps
+description=Make GPS to TW Server, NFC setting mod

@@ -1,0 +1,4 @@
+ro.vendor.nfc.wallet_fusion=0
+ro.telephony.default_network=11,11
+telephony.lteOnCdmaDevice=0
+persist.backup.ntpServer="time.cloudflare.com"
