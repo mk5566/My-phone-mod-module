@@ -1,6 +1,6 @@
 id=mi13u_twgpsnfc
-name=Xiaomi 13U TW GPS & NFC Fusion off
-version=stable
-versionCode=9
+name=Xiaomi 13U NFC and Modifies
+version=v2
+versionCode=10
 author=mk5566
-description=Make GPS to TW Server, NFC setting mod
+description=Make NTP to TW Server, NFC setting and some Modifies
