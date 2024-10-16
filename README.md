@@ -11,3 +11,4 @@ Should work with HyperOS CN rom as well.
 * Change GPS server from EU to Cloudflare, Google and TW server
 * Disable logcat
 * Enable Chinese font weights, using system build-in MiSans VF
+* Enable Vulkan HWUI, make sure use compitable GPU driver
