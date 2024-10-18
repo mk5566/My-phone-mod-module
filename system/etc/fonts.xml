@@ -1456,15 +1456,7 @@
         <font weight="400" style="normal">NotoSansSymbols-Regular-Subsetted.ttf</font>
     </family>
     <family lang="zh-Hans">
-        <font weight="400" style="normal" index="2" postScriptName="NotoSansCJKjp-Regular">
-            NotoSansCJK-Regular.ttc
-        </font>
-        <font weight="400" style="normal" index="2" fallbackFor="serif"
-              postScriptName="NotoSerifCJKjp-Regular">NotoSerifCJK-Regular.ttc
-        </font>
-    </family>
-<family lang="zh-Hant,zh-Bopo">
-      <font weight="100" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+	<font weight="100" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
         <axis tag="wght" stylevalue="150" />
       </font>
       <font weight="200" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
@@ -1494,6 +1486,45 @@
       <font weight="900" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
         <axis tag="wght" stylevalue="700" />
       </font>
+        <font weight="400" style="normal" index="2" fallbackFor="serif"
+              postScriptName="NotoSerifCJKjp-Regular">NotoSerifCJK-Regular.ttc
+        </font>
+    </family>
+    <family lang="zh-Hant,zh-Bopo">
+			  <font weight="100" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="150" />
+      </font>
+      <font weight="200" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="200" />
+      </font>
+      <font weight="300" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="250" />
+      </font>
+      <font weight="350" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="305" />
+      </font>
+      <font weight="400" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="330" />
+      </font>
+      <font weight="500" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="380" />
+      </font>
+      <font weight="600" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="450" />
+      </font>
+      <font weight="700" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="520" />
+      </font>
+      <font weight="800" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="630" />
+      </font>
+      <font weight="900" style="normal" postScriptName="MiSansVF">MiSansVF.ttf
+        <axis tag="wght" stylevalue="700" />
+      </font>
+      
+        <font weight="400" style="normal" index="3" fallbackFor="serif"
+              postScriptName="NotoSerifCJKjp-Regular">NotoSerifCJK-Regular.ttc
+        </font>
     </family>
     <family lang="ja">
         <font weight="400" style="normal" index="0" postScriptName="NotoSansCJKjp-Regular">

@@ -1,6 +1,6 @@
-id=mi13u_twgpsnfc
-name=Xiaomi 13U NFC and Modifies
-version=v2
-versionCode=14
+id=mymi13umods
+name=My Xiaomi 13U Modifies
+version=v1
+versionCode=1
 author=mk5566
-description=NFC setting and some Modifies
+description=NFC Fusion off, less log, TW font weights and many system props.
