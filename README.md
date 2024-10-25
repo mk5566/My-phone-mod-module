@@ -9,6 +9,8 @@ Should work with HyperOS CN rom as well.
 
 * Disable NFC fusion, so I can use nfc-sim and payment at the same time.
 * Change GPS server from EU to Cloudflare, Google and TW server
-* Disable logcat
-* Enable Chinese font weights, using system build-in MiSans VF
-* Enable Vulkan HWUI, make sure use compitable GPU driver
+* Disable many log, don’t use if you need you phone to debug.
+* Enable Chinese font weights, using MiSans TC VF for standard character in Taiwan.
+* Enable Vulkan HWUI, make sure use compitable GPU driver, v676 is recommended.
+* Change emoji to JoyPixel, my personal favorite.
+* Many tweaks in system props I collected from internet and check what they do with ChatGPT.

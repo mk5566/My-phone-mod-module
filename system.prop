@@ -197,3 +197,29 @@ debug.hwui.use_gpu_pixel_buffers=false
 debug.hwui.filter_test_overhead=false
 debug.hwui.overdraw=false
 debug.hwui.level=1
+
+
+#testbelow
+
+debug.qualcomm.sns.hal=0 
+debug.qualcomm.sns.daemon=0 
+persist.debug.sensors.hal=0 
+persist.brcm.log=none 
+persist.brcm.cp_crash=none 
+# Enables offline logging for the kernel and logcat. 
+persist.sys.offlinelog.kernel=1
+persist.sys.offlinelog.logcat=1
+# Disables OEM-specific dumps.
+persist.oem.dump=0
+# Enables the system's sleep mode.
+pm.sleep_mode=1
+# Enables profiling for game tools.
+sys.games.gt.prof=1
+# Disables GPU performance mode.
+sys.hwc.gpu_perf_mode=0
+# Disables persistent caching for the A/V system.
+av.debug.disable.pers.cache=true
+# Disables various log outputs related to the system's core functionality, including media playback, rendering, and audio output.
+log.cffdump_with_ifh=0         
+log.cffdump_no_memzero=0    
+log.dumpx=0 
