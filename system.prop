@@ -197,10 +197,7 @@ debug.hwui.use_gpu_pixel_buffers=false
 debug.hwui.filter_test_overhead=false
 debug.hwui.overdraw=false
 debug.hwui.level=1
-
-
 #testbelow
-
 debug.qualcomm.sns.hal=0 
 debug.qualcomm.sns.daemon=0 
 persist.debug.sensors.hal=0 
