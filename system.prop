@@ -1,5 +1,5 @@
 ro.vendor.nfc.wallet_fusion=0
-ro.telephony.default_network=11,11
+ro.telephony.default_network=24,24
 telephony.lteOnCdmaDevice=0
 persist.backup.ntpServer="time.cloudflare.com"
 ro.zygote.disable_gl_preload=true
@@ -219,4 +219,7 @@ av.debug.disable.pers.cache=true
 # Disables various log outputs related to the system's core functionality, including media playback, rendering, and audio output.
 log.cffdump_with_ifh=0         
 log.cffdump_no_memzero=0    
-log.dumpx=0 
+log.dumpx=0
+dalvik.vm.dex2oat-threads=5
+dalvik.vm.boot-dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=5
