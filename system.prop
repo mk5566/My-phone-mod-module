@@ -152,12 +152,6 @@ log_ao=0
 log_fps_interval=0
 debug_test=0
 debug.sf.auto_latch_unsignaled=false
-#ro.dalvik.vm.enable_uffd_gc=true
-#debug.sf.enable.planner_prediction=false
-#debug.sf.hwc_hotplug_error_via_neg_vsync=1
-#debug.sf.hwc_hdcp_via_neg_vsync=1
-
-# Vulkan
 debug.hwui.skia_tracing_enabled=false
 debug.hwui.skia_use_perfetto_track_events=false
 ro.hwui.use_vulkan=true
@@ -194,32 +188,21 @@ debug.hwui.use_gpu_pixel_buffers=false
 debug.hwui.filter_test_overhead=false
 debug.hwui.overdraw=false
 debug.hwui.level=1
-#testbelow
 debug.qualcomm.sns.hal=0 
 debug.qualcomm.sns.daemon=0 
 persist.debug.sensors.hal=0 
 persist.brcm.log=none 
 persist.brcm.cp_crash=none 
-# Enables offline logging for the kernel and logcat. 
-# persist.sys.offlinelog.kernel=1
-# persist.sys.offlinelog.logcat=1
-# Disables OEM-specific dumps.
 persist.oem.dump=0
-# Enables the system's sleep mode.
 pm.sleep_mode=1
-# Enables profiling for game tools.
 sys.games.gt.prof=1
-# Disables GPU performance mode.
 sys.hwc.gpu_perf_mode=0
-# Disables persistent caching for the A/V system.
 av.debug.disable.pers.cache=true
-# Disables various log outputs related to the system's core functionality, including media playback, rendering, and audio output.
 log.cffdump_with_ifh=0         
 log.cffdump_no_memzero=0    
 dalvik.vm.dex2oat-threads=5
 dalvik.vm.boot-dex2oat-threads=4
 dalvik.vm.image-dex2oat-threads=5
-
 persist.sys.dexpreload.big_prime_cores=3-7
 persist.sys.dexpreload.cpu_cores=0-7
 persist.sys.dexpreload.other_cores=0-2
@@ -229,11 +212,104 @@ persist.sys.miui_animator_sched.sched_threads=2
 persist.vendor.display.miui.composer_boost=3-7
 ro.miui.affinity.sfre=0-2
 ro.miui.affinity.sfui=0-2
-
-
 persist.sys.advanced_visual_release=3
 persist.vendor.disable_idle_fps.threshold=10
 ro.vendor.display.primary_idle_refresh_rate=60,1:10
 ro.vendor.mi_sf.aod_mode_ddic_refresh_rate=1
+persist.sys.support_ultra_hdr=true
+ro.vendor.audio.voip.assistant=true
+ro.vendor.audio.voiceopti=true
+persist.sys.app_dexfile_preload.enable=true
+ro.config.low_ram=false
+debug.sf.hw=1
+init.svc.flash_recovery=stopped
+ro.crypto.state=encrypted
+persist.sys.stability.miui_fbo_enable=1
+vendor.perf.framepacing.enable=false
+persist.sys.power.default.powermode=1
+persist.miui.miperf.enable=1
+vendor.mi.mpbe.enable=1
+vendor.mi.mpbe.ioboost.enable=1
+persist.debug.trace=0
+persist.logd.diag.tcpdump=false
+persist.logd.diag.bootup=false
+persist.logd.diag.mobilelog=false
+persist.sys.qlogd=0
+persist.sys.ssr.enable_debug=false
+persist.vendor.sys.rawdump_copy=0
+ro.vendor.histogram.enable=false
+vendor.display.disable_sdr_histogram=1
+sys.lmk.reportkills=0
+debug.mdpcomp.logs=0
+persist.vendor.radio.adb_log_on=0
+persist.traced.enable=0
+persist.vendor.camera.mawlog.main=0
+persist.sys.offlinelog=false
+persist.sys.offlinelog.bootlog=false
+persist.sys.offlinelog.kernel=false
+persist.sys.offlinelog.logcat=false
+service.offlinelog.bootloader=false
+vendor.gralloc.enable_logs=0
+persist.vendor.sensors.debug.hal_trigger_crash=false
+persist.vendor.sensors.debug.hal_trigger_ssr=false
+ro.vendor.displayfeature.dump=false
+vendor.display.disable_hw_recovery_dump=1
+# Camera Log
+persist.vendor.camera.logstate=0
 
-
+# qseelogd
+persist.sys.qseelogd=false
+# Logd
+persist.logd.limit=Off
+persist.logd.size=-1
+persist.logd.size.crash=Off
+persist.logd.size.main=-1
+persist.logd.size.radio=Off
+persist.logd.size.system=Off
+ro.logd.size=-1
+ro.logd.size.stats=-1
+# Out Of Memory Watchdog
+persist.sys.oom_crash_on_watchdog=false
+#Log Tags
+log.tag.stats_log=S
+persist.log.tag=S
+persist.log.tag.snet_event_log=S
+debug.sf.cache_source_crop_only_moved=true
+debug.sf.disable_client_composition_cache=0
+debug.sf.enable_layer_command_batching=true
+debug.sf.fp16_client_target=true
+# debug.sf.hw=1
+debug.sf.latch_unsignaled=1
+debug.sf.auto_latch_unsignaled=0
+debug.sf.multithreaded_present=true
+debug.sf.predict_hwc_composition_strategy=1
+debug.sf.screenshot_fence_preservation=true
+ro.surface_flinger.running_without_sync_framework=false
+ro.surface_flinger.start_graphics_allocator_service=true
+# Renderengine optimizations
+debug.egl.hw=1
+# debug.renderengine.vulkan=true
+debug.stagefright.renderengine.backend=threaded
+persist.sys.force_sw_gles=0
+# Faster game loading
+debug.game.video.support=true
+debug.game.video.speed=true
+# LTPO Optimize
+ro.vendor.mi_sf.support_automode_for_normalfps=true
+# More blurring
+ro.launcher.blur.appLaunch=1
+persist.sys.background_blur_supported=true
+persist.sys.background_blur_version=2
+ro.sf.blurs_are_expensive=0
+persist.sys.add_blurnoise_supported=true
+persist.sys.stability.f2fsTrackEnable=false
+persist.sys.stability.nativehang.enable=false
+persist.sys.stability.qcom_hang_task.enable=false
+persist.sys.stability.report_app_launch.enable=false
+persist.sys.stability.window_monitor.enabled=false
+persist.sys.textureview_optimization.enable=false
+persist.sys.touch.followup.enable=false
+persist.sys.trim_rendernode.enable=false
+persist.sys.stability.reboot_days=-1
+persist.sys.debug.app.mtbf_test=false
+persist.sys.perfdebug.monitor.enable=false

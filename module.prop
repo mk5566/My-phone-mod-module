@@ -1,6 +1,6 @@
 id=mymi13umods
 name=My Xiaomi 13U Modifies
-version=v5
-versionCode=5
+version=v6 Exp
+versionCode=6
 author=mk5566
-description=NFC Fusion off, less log, core affinity, TW font weights and many system props.
+description=NFC Fusion off, less log, core affinity, MiSans font weights and many system props.
