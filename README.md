@@ -14,3 +14,6 @@ Should work with HyperOS CN rom as well.
 * Enable Vulkan HWUI, make sure use compitable GPU driver, v676 is recommended.
 * Change emoji to JoyPixel, my personal favorite.
 * Many tweaks in system props I collected from internet and check what they do with ChatGPT.
+
+
+some props are from [HyperOptimizer](https://github.com/TatshSiow/HyperOptimize)
